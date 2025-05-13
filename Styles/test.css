@@ -1,0 +1,36 @@
+
+#page-structure {
+  height: 100vh;
+  z-index: 3;
+}
+
+.header-text h2, .header-text h1 {
+  font-family: HelveticaNeue, Helvetica, Arial, "Lucida Grande", sans-serif !important;
+  font-weight: 900 !important;
+  z-index: 2;
+}
+
+.background-video{
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+.background-video video{
+  min-width: 100%;
+  min-height: 100%;
+
+}
+*:not(head){
+  margin: 0; 
+ width: 100%;
+
+  align-items: center;
+  justify-content: center;
+   /* display: flex; */
+z-index: 5;
+}
+/* # sourceMappingURL=test.css.map */
