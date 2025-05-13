@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<!-- 
+ 問題の起きたパソコンは→デスク
+ 電源を押したとき電源ランプは点灯しますか？→はい
+電源がついた後にすぐ落ちましたか？→いいえ
+WindowsやMACOSは正常に起動しますか？→はい
+突如青い画面が出た後に電源が落ちましたか？→はい
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>七つ目の質問</title>
+    <link rel="stylesheet" href="http://localhost/Webapp/styles/Question.css">
+</head>
+
+<body>
+    <main>
+            <div id="stkr-area">
+        <div id="stkr"></div>
+        <div class="links">
+        <div id="form">
+            <h1>お使いのpcに搭載されているCPUはIntel製の13xxx,14xxx番台ですか？(タスクマネージャーから確認できます)</h1>
+        </div>
+        <a href="./y/Answer.html"> <button class="answer stkr-target" type="button" data-color="color1">はい</button>
+        </a>
+            <a href="./n/Answer.html"><button class="answer stkr-target" type="button" data-color="color2" >いいえ</button>
+            </a>
+
+        <a href="../Question.html">
+           <button id="back" type="button" class="answer stkr-target" data-color="color3">一つ前に戻る</button>
+        </a>
+
+
+        </div>
+</div>
+    </main>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/Webapp/Scripts/question.js"></script>
+</body>
+
+</html>
