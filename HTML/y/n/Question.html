@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head><!-- 
+    問題の起きたパソコンは→ノート
+    電源を押したとき電源ランプは点灯しますか？→いいえ
+   バッテリーに充電はある状態ですか？(充電にさしている状態で起動しますか？)→
+   -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>三つ目の質問</title>
+    <link rel="stylesheet" href="http://localhost/Webapp/styles/Question.css">
+</head>
+
+<body>
+    <main>
+            <div id="stkr-area">
+        <div id="stkr"></div>
+        <div class="links">
+        <div id="form">
+            <h1>バッテリーに充電はある状態ですか？(充電にさしている状態ですか？)</h1>
+        </div>
+        <a href="./y/Question.html"> <button class="answer stkr-target" type="button" data-color="color1">はい</button>
+        </a>
+            <a href="./n/Question.html"><button class="answer stkr-target" type="button" data-color="color2" >いいえ</button>
+            </a>
+<!-- n -->
+        <a href="../Question.html">
+           <button id="back" type="button" class="answer stkr-target" data-color="color3">一つ前に戻る</button>
+        </a>
+
+
+        </div>
+</div>
+    </main>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/Webapp/Scripts/question.js"></script>
+</body>
+
+</html>
